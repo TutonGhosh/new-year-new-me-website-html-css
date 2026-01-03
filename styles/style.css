@@ -82,3 +82,29 @@ main{
 i{
     color: #16D887;
 }
+
+/* My Plans */
+.my-plans{
+    margin-top: 140px;
+    text-align: center;
+}
+.my-plans > h2{
+    color: var(#151414, rgba(21, 20, 20, 1));
+    font-size: 40px;
+    font-weight: 700;
+}
+.plans{
+    margin-top: 85px;
+    display: flex;
+    justify-content: space-around;
+}
+.plan h3{
+    color: var(#151414, rgba(21, 20, 20, 1));
+    font-size: 30px;
+    font-weight: 700;
+}
+.plan p{
+    color: var(#737272, rgba(115, 114, 114, 1));
+    font-size: 25px;
+    font-weight: 500;
+}
