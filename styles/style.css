@@ -44,3 +44,41 @@ header{
     border: 0;
     border-radius: 5px;
 }
+button:hover{
+    transform: scale(1.09);
+    color: #FFFFFF;
+    background-color: #005FB1;
+    border: 1px solid #FFFFFF;
+}
+
+/* Main Styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Previous Year Styles */
+.prev-year{
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+    gap: 135px;
+}
+.prev-year h2{
+    color: var(#151414, rgba(21, 20, 20, 1));
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.prev-year p, ul li{
+    color: var(#444343, rgba(68, 67, 67, 1));
+    font-size: 16px;
+    font-weight: 400;
+}
+.prev-year li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+i{
+    color: #16D887;
+}
