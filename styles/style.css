@@ -81,6 +81,7 @@ main{
 }
 i{
     color: #16D887;
+    margin-right: 12px;
 }
 
 /* My Plans */
@@ -188,8 +189,5 @@ footer{
     color: #FFFFFF;
 }
 input[type="submit"]:hover{
-    transform: scale(1.09);
-    color: #FFFFFF;
-    background-color: #005FAC;
-    border: 1px solid #FFFFFF;
+    transform: scale(1.03);
 }
