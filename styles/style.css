@@ -4,3 +4,43 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+/* Banner Styles */
+header{
+    height: 100vh;
+    background-image: url(../assets/images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.banner{
+    margin-right: 230px;
+    text-align: right;
+}
+.banner h1{
+    color: rgba(255, 255, 255, 1);
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.banner p{
+    margin-top: 25px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.banner button{
+    margin-top: 30px;
+    width: 160px;
+    height: 64px;
+    color: #005FAC;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+}
