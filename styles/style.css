@@ -108,3 +108,29 @@ i{
     font-size: 25px;
     font-weight: 500;
 }
+
+/* Call Now Styles */
+.call-now{
+    margin-top: 140px;
+    padding: 60px 0px 60px 60px;
+    background-image: url(../assets/images/gradient1.png), url(../assets/images/watch.png);
+    background-repeat: no-repeat;
+}
+.call-now h2{
+    color: rgba(255, 255, 255, 1);
+    font-size: 40px;
+    font-weight: 700;
+}
+.call-now p{
+    color: rgba(255, 255, 255, 1);
+}
+.call-now button{
+    width: 160px;
+height: 64px;
+font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+color: #005FAC;
+background-color: #FFFFFF;
+}
